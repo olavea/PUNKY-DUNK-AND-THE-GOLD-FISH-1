@@ -32,18 +32,25 @@ const About = ({ children }) => (
               Charles Perrault in 1696. Illustrator: D. J. Munro Translator:
               Charles Welsh. Produced by Geetu Melwani, Suzanne Shell and the
               Online Distributed Proofreading Team at{" "}
-              <a href="http://www.pgdp.net"> http://www.pgdp.net</a>).
+              <a href="https://github.com/olavea/Puss-With-Boots-1">
+                {" "}
+                https://github.com/olavea/Puss-With-Boots-1
+              </a>
+              ).
             </p>
             <h1>About this OlaBook</h1>r
             <p>
               {" "}
-              Issues:
+              Issues you can resolve:
               <ul>
                 <li>A button for page shifting.</li>
                 <li>A smaller logo at high left hand corner.</li>
                 <li>More illustrations.</li>
                 <li>A reading of the story.</li>
                 <li>A Norwegian translation.</li>
+                <li>
+                  Go to <a href="http://www.pgdp.net"> http://www.pgdp.net</a>{" "}
+                </li>
               </ul>
             </p>
             <h1>
