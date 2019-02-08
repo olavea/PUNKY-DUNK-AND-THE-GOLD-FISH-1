@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Img fluid={data.file.childImageSharp.fluid} />
+
         <div
           style={{
             margin: `0 auto`,
@@ -61,3 +61,6 @@ Layout.propTypes = {
 export default Layout;
 
 // no helmet for you on line 23 and no meta on line 26
+
+// no Img for you on line 33
+// <Img fluid={data.file.childImageSharp.fluid} />
