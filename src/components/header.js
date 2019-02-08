@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import gatsbyLogo from "../images/logo_2_kopi.png";
+import gatsbyLogo from "../images/2_kopi.jpg";
 
 const Header = ({ siteTitle }) => (
   <header

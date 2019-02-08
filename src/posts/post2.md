@@ -1,11 +1,11 @@
 ---
 slug: "/second-post"
 date: "2019-2-5"
-
+title: "He cast his lot in a very soft spot"
 path: "/second-post"
 ---
 
-He cast his lot in a very soft spot
+
 
 For his bed was a box full of straw,
 

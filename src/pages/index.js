@@ -56,7 +56,7 @@ const IndexPage = () => (
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
 
-    <Link to="/page-2/">Go to page 1</Link>
+    <Link to="/posts/first-post/">Go to page 1</Link>
   </Layout>
 );
 
