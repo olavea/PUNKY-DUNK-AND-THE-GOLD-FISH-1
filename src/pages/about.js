@@ -25,11 +25,16 @@ const About = ({ children }) => (
     render={data => (
       <>
         <Layout>
-          <Img fluid={data.file.childImageSharp.fluid} />
-
           <div>{children}</div>
           <div>
-            <h1>About this OlaBook</h1>
+            <p>
+              End of Project Gutenberg's Puss With Boots, As First Collected by
+              Charles Perrault in 1696. Illustrator: D. J. Munro Translator:
+              Charles Welsh. Produced by Geetu Melwani, Suzanne Shell and the
+              Online Distributed Proofreading Team at{" "}
+              <a href="http://www.pgdp.net"> http://www.pgdp.net</a>).
+            </p>
+            <h1>About this OlaBook</h1>r
             <p>
               {" "}
               Issues:
@@ -58,14 +63,12 @@ const About = ({ children }) => (
               Histoires ou Contes du Temps Passé, avec des Moralites—Contes de
               ma mère l'Oie.
             </p>
-
             <p>
               The earliest translation into English has been found in a little
               book containing both the English and French, entitled, "Tales of
               Passed Times, by Mother Goose. With Morals. Written in French by
               M. (Charles) Perrault, and Englished by R.S. Gent."
             </p>
-
             <p>
               Who R.S. was and when he made his translation we can only
               conjecture. Mr. Andrew Lang, in his "Perrault's Popular Tales" (p.
@@ -73,7 +76,6 @@ const About = ({ children }) => (
               printed for J. Pote, was advertised, Mr. Austin Dobson tells me,
               in the Monthly Chronicle, March, 1729."
             </p>
-
             <p>
               These stories which may be said to be as old as the race
               itself—certainly their germs are to be found in the oldest
@@ -85,7 +87,6 @@ const About = ({ children }) => (
               time is given in Les Contes de ma mère l'Oie avant Perrault, by
               Charles Deulin, Paris, E. Dentu, 1878.
             </p>
-
             <p>
               In this book Mr. Deulin inclines to the view that the stories as
               first published by Perrault were not really written by him, but by
@@ -100,7 +101,6 @@ const About = ({ children }) => (
               father found the son's version better than the one he had
               contemplated and gave that to the world instead.
             </p>
-
             <p>
               These stories made their way slowly in England at first, but in
               the end they nearly eclipsed the native fairy tales and legends,
@@ -110,7 +110,6 @@ const About = ({ children }) => (
               sway. Indeed, the Puritanical objection to nursery lore of all
               kinds still lingers in some corners of England.
             </p>
-
             <p>
               The stories of Perrault came in just when the severer
               manifestations of Puritanism were beginning to decline, and they
@@ -120,7 +119,6 @@ const About = ({ children }) => (
               have been unearthed and revived, and prove to have lost nothing of
               their power of taking hold upon the minds of the little folk.
             </p>
-
             <p>
               Perrault says of his collection that it is certain these stories
               excite in the children who read them the desire to resemble those
@@ -129,7 +127,6 @@ const About = ({ children }) => (
               do ill deeds; and he claims that they all contain a very distinct
               moral which is more or less evident to all who read them.
             </p>
-
             <p>
               Emerson says: "What Nature at one time provides for use, she
               afterwards turns to ornament," and Herbert Spencer, following out
@@ -140,7 +137,6 @@ const About = ({ children }) => (
               poems; and still affords subjects for children's story books,
               amuses boys and girls, and becomes matter for jocose allusion."
             </p>
-
             <p>
               Thus, also, Sir Walter Scott, in a note to "The Lady of the Lake,"
               says: "The mythology of one period would appear to pass into the
@@ -151,13 +147,11 @@ const About = ({ children }) => (
               again became at a later age the principal characters of our
               nursery tales."
             </p>
-
             <p>
               These thoughts may help to a better understanding of some of the
               uses of such stories and of their proper place in children's
               reading.
             </p>
-
             <p>Charles Welsh</p>
           </div>
 
@@ -166,14 +160,6 @@ const About = ({ children }) => (
           </p>
           <p>
             <Link to="/posts/second-post"> or go back to page two </Link>
-          </p>
-
-          <p>
-            End of Project Gutenberg's Puss With Boots, As First Collected by
-            Charles Perrault in 1696. Illustrator: D. J. Munro Translator:
-            Charles Welsh. Produced by Geetu Melwani, Suzanne Shell and the
-            Online Distributed Proofreading Team at{" "}
-            <a href="http://www.pgdp.net"> http://www.pgdp.net</a>).
           </p>
 
           <p>
@@ -607,3 +593,4 @@ const About = ({ children }) => (
 );
 
 export default About;
+// <Img fluid={data.file.childImageSharp.fluid} />

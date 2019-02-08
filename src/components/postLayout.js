@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Layout from "./layout";
 
 // Static Query
@@ -18,6 +18,15 @@ export default class postLayout extends Component {
         <div
           dangerouslySetInnerHTML={{
             __html: markdownRemark.html
+          }}
+        />
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0
           }}
         />
       </Layout>
@@ -72,3 +81,18 @@ export const query = graphql`
 //     }
 //   }
 // `;
+// --- from Kyle
+// <li>
+//             {previous && (
+//               <Link to={previous.frontmatter.slug} rel="prev">
+//                 ← {previous.frontmatter.title}
+//               </Link>
+//             )}
+//           </li>
+//           <li>
+//             {next && (
+//               <Link to={next.frontmatter.slug} rel="next">
+//                 {next.frontmatter.title} →
+//               </Link>
+//             )}
+//           </li>
